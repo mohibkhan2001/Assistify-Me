@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Rotation</title>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 0.5s ease;
+  }
+
+  .box:hover {
+    transform: rotate(360deg);
+  }
+
+  .box:nth-child(1) {
+    margin-right: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <!-- hello -->
+</div>
+</body>
+</html>
